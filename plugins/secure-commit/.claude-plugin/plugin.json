@@ -1,0 +1,16 @@
+{
+  "name": "secure-commit",
+  "displayName": "Secure Commit",
+  "version": "1.0.0",
+  "description": "Review a git commit for secrets and unsafe commands before the user commits.",
+  "author": {
+    "name": "Sample"
+  },
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "security",
+    "git"
+  ],
+  "skills": "./skills/"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "claude-to-cursor-sample",
+  "owner": {
+    "name": "Sample"
+  },
+  "metadata": {
+    "description": "Minimal sample marketplace showing a Claude-format plugin with one skill that Cursor can also load."
+  },
+  "plugins": [
+    {
+      "name": "secure-commit",
+      "source": "./plugins/secure-commit",
+      "description": "Skill that reviews a commit for secrets and unsafe commands."
+    }
+  ]
+}

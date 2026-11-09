@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "hooks": {
+    "preToolUse": [
+      {
+        "type": "command",
+        "command": "./scripts/deny-rm-rf.sh",
+        "matcher": "Shell",
+        "timeout": 30
+      }
+    ]
+  }
+}
