@@ -2,6 +2,17 @@
 
 A small, customer-safe sample that shows how **Claude Code** skills, hooks, `CLAUDE.md`, and marketplace layout work in **Cursor** with little or no rewriting — and how the same content looks in Cursor-native paths.
 
+## Cursor loads your `.claude` files as they are
+
+Cursor reads Claude Code content straight from disk. You do not need to convert it first. Cursor loads:
+
+- `CLAUDE.md` project instructions
+- Skills in `.claude/skills/` (project) and `~/.claude/skills/` (user)
+- Hooks in `.claude/settings.json` and `~/.claude/settings.json`
+- Claude plugin marketplaces (`.claude-plugin/marketplace.json`)
+
+This works when **Settings → Agents → Include Third-Party Plugins, Skills, and Other Configs** is on. It is on by default. Claude Code does not need to be installed. The Cursor-native copies in this repo show the target format if you later want to move off the Claude paths.
+
 This repo is a side-by-side reference, not a product dependency. Copy what you need into your own projects.
 
 ## What this shows
